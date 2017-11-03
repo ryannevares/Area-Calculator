@@ -10,6 +10,8 @@ Enjoy!
 from math import pi, sqrt
 from time import sleep
 from datetime import datetime
+from textwrap import fill
+from sys import stdout
 now = datetime.now() # simply print time & date when program starts
 
 def print_slow(string):

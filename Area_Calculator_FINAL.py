@@ -12,8 +12,15 @@ from time import sleep
 from datetime import datetime
 now = datetime.now() # simply print time & date when program starts
 
+def print_slow(string):
+    for letter in fill(string):
+        stdout.write(letter)
+        stdout.flush()
+        sleep(.09)
+
 # Print initial message to the user
-print " \nArea Calculator started successfully!"
+print ""
+print_slow ("Area Calculator started successfully!")
 sleep(.5)
 print "The current time and date are: %s/%s/%s %s:%s \n" % (now.month, now.day, now.year, now.hour, now.minute)
 sleep(1)

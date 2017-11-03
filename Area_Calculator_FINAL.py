@@ -24,7 +24,7 @@ def print_slow(string):
 print ""
 print_slow ("Area Calculator started successfully!")
 sleep(.5)
-print "The current time and date are: %s/%s/%s %s:%s \n" % (now.month, now.day, now.year, now.hour, now.minute)
+print "\nThe current time and date are: %s/%s/%s %s:%s \n" % (now.month, now.day, now.year, now.hour, now.minute)
 sleep(1)
 
 ################# FUNCTION DEFINITIONS #################################

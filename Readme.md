@@ -9,7 +9,8 @@ This is a command line based area calculator that can calculate the area for sev
 Please report any bugs or suggestions to ryannevares@gmail.com
 
 
-///////////////CHANGELOG\\\\\\\\\\\\\\\\
+CHANGELOG:
+
 New in 2.6:
 * Slow typing more widely implemented
 * Slow typing speed increased

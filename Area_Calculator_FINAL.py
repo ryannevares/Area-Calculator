@@ -35,9 +35,8 @@ def printoptions():
     sleep(.5)
     option_list = ["C for circle", "T for triangle", "R for rectangle", "S for square", "P for parallelogram", "TD for trapazoid", "E for ellipse", "SR for sphere", "CN for cone", "CY for cylinder", "CB for cube", "Q to QUIT"]
     for i in option_list:
-        print_slow (i)
-        print ""
-        sleep(.1)
+        print i
+        sleep(.09)
 
 def print_hint(): # This is repeated several times, so we define it only once
     sleep(0.2)
